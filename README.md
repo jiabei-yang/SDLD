@@ -25,5 +25,5 @@ Code for paper [Yang, J., Mwangi, A. W., Kantor, R., Dahabreh, I. J., Nyambura, 
 * `Appendix/`: Additional code for results in Web Appendices.  
   + `Appendix*.R`: code for Appendix *.
 
-* `Data/`: simulation results and data from the SUPPORT study.
+* `Data/`: simulated data with a similar design to the dataset in main manuscript.
   
