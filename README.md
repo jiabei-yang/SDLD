@@ -4,7 +4,7 @@ Code for paper [Yang, J., Mwangi, A. W., Kantor, R., Dahabreh, I. J., Nyambura, 
 
 * `main/`: code for data analysis in the main manuscript.
   * Analysis of the AMPATH data: Because of confidentiality issues, we do not share the code used for analyzing the dataset. `Appendix/` contains code for fitting SDLD algorithm on simulated data with a similar design to the AMPATH data.
-  * `seed1000.rda`: seeds for used in code.
+  * `seed1000.rda`: seeds used in code.
     
 * `Functions/`: functions to implement the SDLD algorithm.
   + `CvMethod1.R`: functions for the final tree selection method described in the main manuscript. 
