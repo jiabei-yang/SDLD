@@ -3,11 +3,7 @@
 Code for paper [Yang, J., Mwangi, A. W., Kantor, R., Dahabreh, I. J., Nyambura, M., Delong, A., ... & Steingrimsson, J. A. (2022). Tree-based Subgroup Discovery Using Electronic Health Record Data: Heterogeneity of Treatment Effects for DTG-containing Therapies.](https://arxiv.org/abs/2208.14329)
 
 * `main/`: code for data analysis in the main manuscript.
-  * Analysis of the AMPATH data:
-    + `Stp*.R`: clean dataset in steps. Because of confidentiality issues, we do not share the code used for cleaning the dataset.
-    + `Summ2AllWt.R`: impute missingness in cleaned dataset.
-    + `WtAvgTrtEff200dCi.R`: estimate average weight if always and never being on a DTG-containing ART and estimated effect on average weight. Code producing Figure 1 in main manuscript.
-    + `WtSubAnal200dAllStp*.R`: run SDLD algorithm in steps, check stability of the algorithm, and estimate treatment effect in terminal nodes using non-parametric bootstrap. Code producing the estimates in Figure 2 in main manuscript. 
+  * Analysis of the AMPATH data: Because of confidentiality issues, we do not share the code used for analyzing the dataset. `Appendix/` contains code for fitting SDLD algorithm on simulated data with a similar design to the AMPATH data.
     + `seed1000.rda`: seeds for used in code.
     
 * `Functions/`: functions to implement the SDLD algorithm.
@@ -24,6 +20,7 @@ Code for paper [Yang, J., Mwangi, A. W., Kantor, R., Dahabreh, I. J., Nyambura, 
 
 * `Appendix/`: Additional code for results in Web Appendices.  
   + `Appendix*.R`: code for Appendix *.
+  + `AppendixC3*.R`: ode for fitting SDLD algorithm on simulated data with a similar design to the AMPATH data.
 
 * `Data/`: simulated data with a similar design to the dataset in main manuscript.
   
